@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enna</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <Header>
+        <nav>
+            <ul class="nav-links" id="links-s">
+                <li><a href="../index.html">MERAVIGLIE URBANE</a></li>
+            </ul>
+            <ul class="nav-links" id="links-d">
+                <li><a href="province.html">PROVINCE</a></li>
+                <li><a href="piazze.html">PIAZZE</a></li>
+                <li><a href="chi siamo.html">CHI SIAMO?</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <body>
+        <main>
+            <section class="img-piazza-enna">
+            <h1>Piazza Vittorio Emanuele,</h1>
+            <p>Enna</p>
+        </section>
+        <section class="container-respiro">
+            <div class="riga-flex">
+                <div class="blocco-img-quadrata">
+                    <img src="../images/piazza/ENNA/hero/Piazza_Vittorio_Emanuele.jpg" alt="Piazza Pirandello">
+                </div>
+                <div class="blocco-testo-lato">
+                    <h2>Piazza Vittorio Emanuele</h2>
+                    <p>La Piazza Vittorio Emanuele è uno dei principali spazi urbani della città di Enna, spesso 
+                        considerata il “belvedere della Sicilia” per la sua posizione elevata nel cuore dell’isola. La 
+                        piazza rappresenta il punto di riferimento della vita cittadina moderna, ma conserva anche 
+                        un forte legame con la storia e l’identità del centro storico. 
+                    </p>
+                    <p>Situata in posizione panoramica, la piazza è circondata da edifici istituzionali e attività 
+                        storiche, e si apre su scorci che dominano le vallate circostanti. Questo elemento 
+                        paesaggistico è uno dei suoi tratti più caratteristici: da qui lo sguardo si estende per 
+                        chilometri, offrendo una delle viste più ampie e suggestive dell’entroterra siciliano. 
+                    </p>
+                    <p>Uno dei punti più importanti nei dintorni è la vicina Cattedrale di Enna, dedicata a Maria 
+                        Santissima della Visitazione. Questo edificio monumentale, con la sua imponente facciata 
+                        barocca e gli interni ricchi di decorazioni, rappresenta uno dei principali simboli religiosi della 
+                        città e un punto centrale della devozione locale.
+                    </p>
+                    <p>La piazza è anche un luogo di incontro quotidiano: qui si svolgono passeggiate, eventi 
+                        pubblici e momenti di socialità, soprattutto nelle ore serali quando il clima più fresco invita a 
+                        fermarsi e godere del panorama. La sua atmosfera è tranquilla e raccolta, tipica delle città 
+                        interne siciliane, dove il ritmo della vita è più lento e legato alle tradizioni.
+                    </p>
+                    <p>Una curiosità interessante riguarda proprio la posizione di Enna: essendo uno dei 
+                        capoluoghi più alti d’Italia, Piazza Vittorio Emanuele offre una sensazione unica di “città 
+                        sospesa tra cielo e terra”, rendendola un punto panoramico naturale oltre che urbano. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-respiro">
+            <div class="img-full-width">
+                <img src="../images/piazza/foto di mezzo/ENNA.jpg" alt="Panorama Agrigento">
+            </div>
+        </section>
+        <section class="container-respiro">
+            <div class="griglia-tre-colonne">
+                <div class="card-minima">
+                    <img src="../images/piazza/ENNA/castello/Castello-di-Lombardia-dallalto.jpg" alt="Basilica">
+                    <h3>Castello di Lombardia</h3>
+                    <p>Una delle più grandi fortificazioni medievali della Sicilia, costruita su un’altura 
+                        strategica. Offre una vista spettacolare a 360° sull’isola. </p>
+                </div>
+                <div class="card-minima">
+                    <img src="../images/piazza/ENNA/torre di federico enna/Torre-Federico-II-1.webp" alt="Teatro">
+                    <h3>Torre Federico II</h3>
+                    <p>Antica torre ottagonale attribuita a Federico II di Svevia, immersa in un’area verde 
+                        tranquilla e ricca di storia. </p>
+                </div>
+                <div class="card-minima">
+                    <img src="../images/piazza/ENNA/duomo/Enna_Dom_Fassade.jpg" alt="Palazzo">
+                    <h3>Duomo di enna</h3>
+                    <p>Uno dei più importanti edifici religiosi della città, con una facciata imponente e interni 
+                        decorati in stile barocco siciliano.</p>
+                </div>
+            </div>
+        </section>
+        </main>
+        <script>
+            document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.href === window.location.href) {
+            link.classList.add('active');}});
+        </script>
+    </body>
+    <footer>
+       <div class="footer-container">
+        <div class="footer-contatti">
+            <h3>CONTATTI</h3>
+            <p>
+                <a href="https://www.google.it/maps/..." target="_blank">
+                    Via Roma, 123 - 94100 Enna (EN)
+                </a>
+            </p>
+            <p>
+                Telefono: <a href="tel:+390935654"> +39 0935 654</a>
+            </p>
+            <p>
+                Email: <a href="mailto:enna@siciliainside.it">enna@siciliainside.it</a>
+            </p>
+        </div>
+
+        <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+       </div>
+    </footer>
+</html>

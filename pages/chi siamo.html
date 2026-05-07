@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pagina</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <Header>
+        <nav>
+            <ul class="nav-links" id="links-s">
+                <li><a href="../index.html">MERAVIGLIE URBANE</a></li>
+            </ul>
+            <ul class="nav-links" id="links-d">
+                <li><a href="province.html">PROVINCE</a></li>
+                <li><a href="piazze.html">PIAZZE</a></li>
+                <li><a href="chi siamo.html">CHI SIAMO?</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <body>
+        <main>
+            <section class="img-main-CHI-SIAMO">
+                <h1>Chi siamo?</h1>
+            </section>
+
+            <section class="container">
+                <div class="riga">
+                    <div class="testo-z">
+                        <h2>Chi siamo?</h2>
+                        <p>Siamo un gruppo di appassionati di storia, arte e tradizioni siciliane, uniti dal desiderio di 
+                            raccontare e valorizzare le piazze storiche dell’isola. Ogni piazza, per noi, è un luogo vivo 
+                            che custodisce racconti, architetture, eventi e frammenti di quotidianità che meritano di 
+                            essere scoperti e condivisi.
+                            <br> 
+                            Il nostro obiettivo è offrire una guida chiara, completa e sempre aggiornata, capace di 
+                            accompagnare chi vuole esplorare la Sicilia: dai luoghi più iconici alle piazze meno 
+                            conosciute, dove si respira l’anima più autentica del territorio. 
+                            All’interno del sito puoi trovare informazioni utili, approfondimenti storici, idee di itinerari e 
+                            fotografie originali, pensate per aiutarti a organizzare le tue visite o semplicemente per farti 
+                            viaggiare con lo sguardo.
+                            <br> 
+                            Crediamo molto nello scambio e nella partecipazione: i contributi di chi ci segue, tra racconti, 
+                            consigli e immagini, sono una risorsa preziosa che arricchisce il progetto. Per questo, ci fa 
+                            piacere considerarti parte di questa esperienza.
+                        </p>
+                    </div>
+                    <div class="img-p">
+                        <img src="../images/chi-siamo/amici-insime.png" alt="Amici Insime">
+                    </div>
+                </div>
+                <div class="riga">
+                    <div class="img-z">
+                        <img src="../images/chi-siamo/castello-enna.png" alt="Castello di Lombardia">
+                    </div>
+                    <div class="testo-z">
+                        <h2>Dove ci troviamo?</h2>
+                        <p>La nostra sede si trova a Enna, tra i vicoli del centro storico, a pochi passi dal Castello di 
+                            Lombardia. Vieni a trovarci: ti aspettiamo nel nostro spazio per condividere consigli, itinerari 
+                            e curiosità sulla Sicilia!
+                        </p>
+                    </div>
+                </div>
+                <div class="riga">
+                    <div class="testo-z">
+                        <h2>Unisciti alla nostra community!</h2>
+                        <p>Entra nella nostra community e resta sempre aggiornato sulle piazze della Sicilia: ogni 
+                            giorno condividiamo immagini, curiosità, eventi e angoli nascosti tutti da scoprire. Seguici 
+                            per lasciarti ispirare da storie e scorci che raccontano la vera essenza dell’isola. 
+                            Facebook: @meraviglieurbane Instagram: @meraviglieurbane Twitter: @meraviglieurbane</p>
+                    </div>
+                    <div class="img-z">
+                        <img src="../images/chi-siamo/telefono-applicazioni.jpg" alt="Iphone con telefonoapplicazioni">
+                    </div>
+                </div>
+            </section>
+            <section class="sezione-scrivici">
+                <div class="scrivici">
+                    <div class="input-gruppo">
+                        <input type="text" placeholder="Nome e cognome" name="" id="">
+                        <input type="text" placeholder="Telefono" name="" id="">
+                        <button id="button-scuro">Premi</button>
+                        <input type="text" placeholder="Email" name="" id="">
+                        <button id="button-chiaro">Premi</button>
+                    </div>
+                    <div class="testo">
+                        <h1>Scrivici</h1>
+                        <p>Hai domande, idee o vuoi raccontarci la tua esperienza nelle piazze della Sicilia? Saremo felici di leggerti!</p>
+                        <p>Puoi scriverci attraverso il modulo di contatto qui sotto e ti risponderemo il prima possibile.</p>
+                        <p>Inserisci il tuo nome, la tua email e il tuo messaggio: ti risponderemo al più presto.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script>
+            document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.href === window.location.href) {
+            link.classList.add('active');}});
+        </script>
+    </body>
+    <footer>
+       <div class="footer-container">
+        <div class="footer-contatti">
+            <h3>CONTATTI</h3>
+            <p>
+                <a href="https://www.google.it/maps/..." target="_blank">
+                    Via Roma, 123 - 94100 Enna (EN)
+                </a>
+            </p>
+            <p>
+                Telefono: <a href="tel:+390935654"> +39 0935 654</a>
+            </p>
+            <p>
+                Email: <a href="mailto:enna@siciliainside.it">enna@siciliainside.it</a>
+            </p>
+        </div>
+
+        <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+       </div>
+    </footer>
+</html>

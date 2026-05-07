@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meraviglie Urbane</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <Header>
+        <nav>
+            <ul class="nav-links" id="links-s">
+                <li><a href="../index.html">MERAVIGLIE URBANE</a></li>
+            </ul>
+            <ul class="nav-links" id="links-d">
+                <li><a href="province.html">PROVINCE</a></li>
+                <li><a href="piazze.html">PIAZZE</a></li>
+                <li><a href="chi siamo.html">CHI SIAMO?</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <body>
+        <main>
+            <section class="img-piazze">
+                <h1>Piazze</h1>
+            </section>
+            <section class="piazze-contenitore">
+                <h2>LE PIAZZE DELLA SICILIA</h2>
+                <ul class="griglia-card">
+                    <li class="card">
+                        <a href="agrigento.html">
+                            <img src="../images/piazza/AGRIGENTO/hero/stazione-agrigento.jpg" alt="Piazza Duomo Messina">
+                            <div class="testo-card">
+                                <h3>Piazza Duomo, Agrigento</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="caltanissetta.html">
+                            <img src="../images/piazza/CALTANISSETTA/hero/caltanissetta.jpg" alt="Piazza Duomo Messina">
+                            <div class="testo-card">
+                                <h3>Piazza Duomo, Caltanissetta</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="catania.html">
+                            <img src="../images/piazza/CATANIA/hero/MG_0307-Catania-piazza-Duomo.jpg" alt="Piazza Duomo Messina">
+                            <div class="testo-card">
+                                <h3>Piazza Duomo, Catania</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="enna.html">
+                            <img src="../images/piazza/ENNA/hero/Piazza_Vittorio_Emanuele.jpg" alt="Piazza Duomo Messina">
+                            <div class="testo-card">
+                                <h3>Piazza Duomo, Enna</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="messina.html">
+                            <img src="../images/piazza/MESSINA/hero/duomo-di-messina-1920x1280.webp" alt="Piazza Duomo Messina">
+                            <div class="testo-card">
+                                <h3>Piazza Duomo, Messina</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="palermo.html">
+                            <img src="../images/piazza/PALERMO/hero/La-Cattedrale-di-Palermo.jpg" alt="Piazza Duomo Messina">
+                            <div class="testo-card">
+                                <h3>Piazza Duomo, Palermo</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="ragusa.html">
+                            <img src="../images/piazza/RAGUSA/hero/Ragusa_SanGiorgioCathedral_0169.jpg" alt="Piazza Duomo Messina">
+                            <div class="testo-card">
+                                <h3>Piazza Duomo, Ragusa</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="siracusa.html">
+                            <img src="../images/piazza/SIRACUSA/hero/siracusa.jpg" alt="Piazza Duomo Messina">
+                            <div class="testo-card">
+                                <h3>Piazza Duomo, Siracusa</h3>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="card">
+                        <a href="trapani.html">
+                            <img src="../images/piazza/TRAPANI/hero/Piazza-Mecato-del-Pesce-scaled.jpg" alt="Piazza Duomo Messina">
+                            <div class="testo-card">
+                                <h3>Piazza Duomo, Trapani</h3>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <script>
+            document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.href === window.location.href) {
+            link.classList.add('active');}});
+        </script>
+    </body>
+     <footer>
+       <div class="footer-container">
+        <div class="footer-contatti">
+            <h3>CONTATTI</h3>
+            <p>
+                <a href="https://www.google.it/maps/..." target="_blank">
+                    Via Roma, 123 - 94100 Enna (EN)
+                </a>
+            </p>
+            <p>
+                Telefono: <a href="tel:+390935654"> +39 0935 654</a>
+            </p>
+            <p>
+                Email: <a href="mailto:enna@siciliainside.it">enna@siciliainside.it</a>
+            </p>
+        </div>
+
+        <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+       </div>
+    </footer>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Province</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <Header>
+        <nav>
+            <ul class="nav-links" id="links-s">
+                <li><a href="../index.html">MERAVIGLIE URBANE</a></li>
+            </ul>
+            <ul class="nav-links" id="links-d">
+                <li><a href="province.html">PROVINCE</a></li>
+                <li><a href="piazze.html">PIAZZE</a></li>
+                <li><a href="chi siamo.html">CHI SIAMO?</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <body>
+        <main>
+            <section class="img-province">
+                <h1>Province</h1>
+            </section>
+            <section class="contenuto-righe">
+                <div class="riga-griglia">
+                    <img src="../images/province/img1-province.jpg" alt="Enna">
+                    <div class="riga-testo">
+                        <h2>Un mosaico di territori siciliani</h2>
+                        <p>La Sicilia è composta da nove province distinte, ognuna con caratteristiche proprie che
+                            rendono l'isola ricca e diversificata. Palermo è il principale centro politico e culturale, Catania si
+                            distingue per il suo dinamismo e la presenza dell'Etna, mentre Messina rappresenta un
+                            importante collegamento con la penisola italiana.
+                        </p>
+                        <p>
+                            Altre province, come Agrigento, Trapani,
+                            Siracusa e Ragusa, offrono un patrimonio ricco di paesaggi, storia e tradizioni, mentre Enna e
+                            Caltanissetta raccontano l'anima più autentica dell'entroterra. Insieme, formano un insieme di
+                            identità diverse che definiscono il fascino della Sicilia.
+                        </p>
+                    </div>
+                </div>
+                <div class="riga-griglia">
+                    <img src="../images/province/img2-province.jpg" alt="">
+                    <img src="../images/province/img3-province.jpg" alt="Etna">
+                </div>
+                <div class="riga3-img-piena">
+                    <img src="../images/province/img4-province.jpg" alt="Tramonto saline">
+                </div>
+                <div class="riga-griglia">
+                    <img src="../images/province/img5-province.jpg" alt="Borgo">
+
+                    <div class="riga-testo">
+                        <h2>Tradizioni e identità delle province siciliane</h2>
+                        <p>Le province della Sicilia racchiudono un patrimonio storico molto antico, segnato dal passaggio
+                            di diverse civiltà come Fenici, Greci, Romani, Arabi e Normanni. Le loro tracce sono ancora
+                            visibili nel territorio e nei monumenti, come dimostrano città come Siracusa e Agrigento, che
+                            conservano importanti testimonianze del passato mediterraneo. 
+                        </p>
+                        <p>
+                            La cultura locale si manifesta
+                            anche attraverso feste, usanze e prodotti tipici, che variano da zona a zona e rafforzano il
+                            legame tra le comunità. Allo stesso tempo, le province siciliane riescono a coniugare
+                            tradizione e innovazione, sviluppando attività legate al turismo, all'agricoltura e ai servizi,
+                            valorizzando così il proprio patrimonio senza rinunciare al futuro.
+                        </p>
+                    </div>
+                </div>
+                <div class="riga-griglia">
+                    <img src="../images/province/img6-province.jpg" alt="Tempio">
+                </div>
+            </section>
+        </main>
+        <script>
+            document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.href === window.location.href) {
+            link.classList.add('active');}});
+        </script>
+    </body>
+    <footer>
+       <div class="footer-container">
+        <div class="footer-contatti">
+            <h3>CONTATTI</h3>
+            <p>
+                <a href="https://www.google.it/maps/..." target="_blank">
+                    Via Roma, 123 - 94100 Enna (EN)
+                </a>
+            </p>
+            <p>
+                Telefono: <a href="tel:+390935654"> +39 0935 654</a>
+            </p>
+            <p>
+                Email: <a href="mailto:enna@siciliainside.it">enna@siciliainside.it</a>
+            </p>
+        </div>
+
+        <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+       </div>
+    </footer>
+</html>

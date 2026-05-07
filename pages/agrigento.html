@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agrigento</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <Header>
+        <nav>
+            <ul class="nav-links" id="links-s">
+                <li><a href="../index.html">MERAVIGLIE URBANE</a></li>
+            </ul>
+            <ul class="nav-links" id="links-d">
+                <li><a href="province.html">PROVINCE</a></li>
+                <li><a href="piazze.html">PIAZZE</a></li>
+                <li><a href="chi siamo.html">CHI SIAMO?</a></li>
+            </ul>
+        </nav>
+    </Header>
+    <body>
+        <main>
+            <section class="img-piazza-agrigento">
+            <h1>Piazza Marconi,</h1>
+            <p>Agrigento</p>
+        </section>
+        <section class="container-respiro">
+            <div class="riga-flex">
+                <div class="blocco-img-quadrata">
+                    <img src="../images/piazza/AGRIGENTO/hero/stazione-agrigento.jpg" alt="Stazione Agrigento">
+                </div>
+                <div class="blocco-testo-lato">
+                    <h2>Piazza Marconi</h2>
+                    <p>La Piazza Marconi è uno dei principali nodi urbani della città di Agrigento e rappresenta un 
+                        punto di passaggio fondamentale tra il centro storico e le aree più moderne. A differenza 
+                        delle piazze monumentali e turistiche della città, Piazza Marconi ha una funzione soprattutto 
+                        pratica e quotidiana, diventando uno degli spazi più vissuti dai residenti.
+                    </p>
+                    <p>Si tratta di una piazza fortemente legata alla mobilità urbana: qui si concentrano fermate di 
+                        autobus e collegamenti che permettono di raggiungere facilmente sia le zone interne della 
+                        città sia i percorsi verso la costa e la celebre Valle dei Templi. Questo la rende un punto 
+                        strategico per chi si muove ad Agrigento, sia per motivi di lavoro che per turismo.
+                    </p>
+                    <p>L’ambiente è dinamico e sempre in movimento: durante la giornata la piazza è attraversata 
+                        da studenti, pendolari e visitatori, mentre nelle ore di punta diventa un vero centro di 
+                        scambio urbano. Intorno si trovano attività commerciali, uffici e servizi che contribuiscono a 
+                        renderla funzionale e costantemente attiva.
+                    </p>
+                    <p>Dal punto di vista urbanistico, Piazza Marconi svolge un ruolo di collegamento tra diverse 
+                        aree della città, in particolare con il vicino sistema di piazze istituzionali e culturali come 
+                        Piazza Luigi Pirandello. Questa posizione la rende uno degli spazi più importanti per 
+                        comprendere la struttura moderna di Agrigento, che si sviluppa tra il centro storico e le 
+                        nuove direttrici di espansione.
+                    </p>
+                    <p>Una curiosità interessante è proprio la sua natura “di passaggio”: non è una piazza pensata 
+                        per la sosta turistica, ma per la connessione e il movimento, e proprio per questo 
+                        rappresenta un aspetto autentico della vita quotidiana agrigentina.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-respiro">
+            <div class="img-full-width">
+                <img src="../images/piazza/foto di mezzo/AGRIGENTO.jpg" alt="Teatro Pirandello">
+            </div>
+        </section>
+        <section class="container-respiro">
+            <div class="griglia-tre-colonne">
+                <div class="card-minima">
+                    <img src="../images/piazza/AGRIGENTO/teatro/teatro-pirandello-scaled.jpg" alt="Teatro Pirandello">
+                    <h3>Teatro Pirandello</h3>
+                    <p>Storico teatro cittadino, punto di riferimento culturale e artistico della città.</p>
+                </div>
+                <div class="card-minima">
+                    <img src="../images/piazza/AGRIGENTO/via atenea/via-atenea.jpg" alt="Teatro">
+                    <h3>Via Atenea</h3>
+                    <p>La principale arteria del centro storico, ricca di negozi, locali e scorci caratteristici 
+                       della vita cittadina.
+                    </p>
+                </div>
+                <div class="card-minima">
+                    <img src="../images/piazza/AGRIGENTO/valle/valle-dei-tempi.jpg" alt="Palazzo">
+                    <h3>Valle dei Templi</h3>
+                    <p>Sito archeologico UNESCO di straordinaria importanza, simbolo assoluto della storia 
+                       antica di Agrigento.
+                    </p>
+                </div>
+            </div>
+        </section>
+        </main>
+        <script>
+            document.querySelectorAll('.nav-links a').forEach(link => {
+            if (link.href === window.location.href) {
+            link.classList.add('active');}});
+        </script>
+    </body>
+    <footer>
+       <div class="footer-container">
+        <div class="footer-contatti">
+            <h3>CONTATTI</h3>
+            <p>
+                <a href="https://www.google.it/maps/..." target="_blank">
+                    Via Roma, 123 - 94100 Enna (EN)
+                </a>
+            </p>
+            <p>
+                Telefono: <a href="tel:+390935654"> +39 0935 654</a>
+            </p>
+            <p>
+                Email: <a href="mailto:enna@siciliainside.it">enna@siciliainside.it</a>
+            </p>
+        </div>
+
+        <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+       </div>
+    </footer>
+</html>
